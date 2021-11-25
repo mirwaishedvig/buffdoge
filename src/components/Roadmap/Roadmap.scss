@@ -1,0 +1,355 @@
+.roadmap {
+  background-color: #080212;
+  margin: 200px 0;
+  &__title {
+    margin-top: 100px;
+    text-align: center;
+
+    span {
+      text-align: center;
+      font: normal normal bold 28px EquinoxBold;
+      letter-spacing: 0px;
+      color: #ffffff;
+
+      padding: 10px 30px;
+      background: #160c20;
+      border-radius: 100px;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 200px;
+    margin-top: 30px;
+    text-align: center;
+
+    span {
+      text-align: center;
+      font: normal normal bold 22px EquinoxBold;
+      letter-spacing: 0px;
+      color: #ffffff;
+    }
+  }
+
+  &__video {
+    position: relative;
+    text-align: center;
+
+    &__item {
+      position: relative;
+      width: 100%;
+
+      &.left {
+        text-align: left;
+      }
+
+      &.right {
+        text-align: right;
+      }
+
+      &.width50 {
+        margin-bottom: -300px;
+        video {
+          width: 50%;
+        }
+      }
+
+      &.width100 {
+        text-align: center;
+        margin-top: 300px;
+        video {
+          width: 80%;
+        }
+      }
+    }
+
+    &__timeline {
+      position: absolute;
+      top: 0;
+
+      width: 100%;
+      height: 100%;
+
+      transform: translate3d(-50%, 0, 0);
+      left: 50%;
+
+      &__baseline {
+        position: absolute;
+        height: 70%;
+        width: 0.2%;
+
+        background: #fff;
+
+        transform: translate3d(-50%, 0, 0);
+        left: 50%;
+      }
+
+      &__circle {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+
+        transform: translate3d(-50%, 0, 0);
+        left: 50%;
+        background: #fff;
+      }
+
+      &__base {
+        position: absolute;
+        transform: translate3d(-50%, 0, 0);
+        left: 50%;
+        bottom: 2%;
+        width: 17%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      &__rocket {
+        position: absolute;
+        width: 8%;
+        transform: translate3d(-50%, -90%, 0) rotate(180deg);
+        left: 50%;
+        transition: all 0.2s;
+
+        img {
+          width: 100%;
+        }
+
+        &.active {
+          transition-duration: 1s;
+
+          transform: translate3d(-50%, 0, 0) rotate(360deg);
+        }
+
+        &.toBottom {
+          top: 86% !important;
+        }
+      }
+    }
+  }
+
+  &__pictures {
+    display: none;
+    text-align: center;
+
+    &__pic {
+      position: relative;
+      width: 100%;
+      margin-top: -25vw;
+
+      img {
+        width: 90%;
+      }
+    }
+  }
+
+  &__content {
+    position: relative;
+
+    &__item {
+      text-align: center;
+      margin: 100px 0;
+      position: relative;
+
+      span {
+        text-align: center;
+        font: normal normal bold 28px EquinoxBold;
+        letter-spacing: 0px;
+        color: #ffffff;
+
+        padding: 10px 30px;
+        background: #160c20;
+        border-radius: 100px;
+      }
+
+      p {
+        text-align: center;
+        font: normal normal bold 17px Equinox;
+        letter-spacing: 1px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 100;
+
+        &.title {
+          font-family: EquinoxBold;
+          font-size: 18px;
+        }
+      }
+
+      &__sidePic {
+        position: absolute;
+        width: 23%;
+        transform: translate3d(0, -50%, 0);
+        left: 0;
+        top: 50%;
+
+        img {
+          width: 100%;
+        }
+
+        &.top {
+          top: 25%;
+        }
+
+        &.right {
+          right: 0;
+          left: unset;
+        }
+
+        &.phase3 {
+          transform: scaleX(-1) translate3d(30%, -50%, 0);
+        }
+      }
+
+      &__photos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        div {
+          position: relative;
+          width: 300px;
+          margin-bottom: 30px;
+
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .roadmap {
+    &__content {
+      &__item {
+        &__sidePic {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .roadmap {
+    margin: 16vw 0;
+
+    &__subtitle {
+      margin-bottom: 16.66vw;
+    }
+
+    &__video {
+      &__item {
+        &.width50 {
+          margin-bottom: -25vw;
+        }
+
+        &.width100 {
+          margin-top: 25vw;
+        }
+      }
+
+      &__timeline {
+        &__circle {
+          position: absolute;
+          width: 2.1vw;
+          height: 2.1vw;
+          border-radius: 1.25vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .roadmap {
+    &__content {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  .roadmap {
+    &__content {
+      &__item {
+        &__photos {
+          div {
+            width: 44.8vw;
+            margin-bottom: 4.48vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .roadmap {
+    margin: 16vw 0;
+    &__title {
+      margin-top: 0;
+
+      span {
+        font: normal normal bold 4vw EquinoxBold;
+
+        padding: 1vw 3vw;
+      }
+    }
+
+    &__subtitle {
+      margin-top: 2.5vw;
+      margin-bottom: 32vw;
+
+      span {
+        font: normal normal bold 3.5vw EquinoxBold;
+
+        padding: 1vw 3vw;
+      }
+    }
+
+    &__video {
+      display: none;
+    }
+
+    &__pictures {
+      display: block;
+    }
+
+    &__content {
+      width: 90%;
+
+      &__item {
+        margin: 16vw 0;
+        margin-top: 0;
+
+        span {
+          text-align: center;
+          font: normal normal bold 4vw EquinoxBold;
+          letter-spacing: 0px;
+          color: #ffffff;
+
+          padding: 1.8vw 5vw;
+          background: #160c20;
+          border-radius: 16vw;
+        }
+
+        p {
+          text-align: center;
+          font: normal normal bold 3vw Equinox;
+          letter-spacing: 1px;
+          line-height: 7.8vw;
+          color: #ffffff;
+
+          &.title {
+            font-size: 3.5vw;
+          }
+        }
+      }
+    }
+  }
+}
