@@ -21,11 +21,21 @@ export const Intro = () => {
   return (
     <section className="intro" id="mint">
       <div className="intro__video">
-        <video src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/web+main+page.webm" autoPlay loop muted className="intro__video__web">
-        </video>
+        <video
+          src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/web+main+page.webm"
+          muted
+          autoPlay
+          loop
+          className="intro__video__web"
+        ></video>
 
-        <video src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/phone+first+page.webm" autoPlay loop muted className="intro__video__mobile">
-        </video>
+        <video
+          src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/phone+first+page.webm"
+          muted
+          autoPlay
+          loop
+          className="intro__video__mobile"
+        ></video>
       </div>
 
       <div className="intro__mintBtn">
