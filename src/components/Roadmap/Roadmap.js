@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 
 import "./Roadmap.scss";
 
-
 export const Roadmap = () => {
   const videoWrapperRef = useRef(false);
 
@@ -111,9 +110,12 @@ export const Roadmap = () => {
               } ${index === 4 ? "width100" : "width50"}`}
               key={index}
             >
-              <video muted ref={videoRefArray[index]}>
-                <source src={item} type="video/mp4" />
-              </video>
+              <video
+                src={item}
+                muted
+                playsinline
+                ref={videoRefArray[index]}
+              ></video>
             </div>
           ))}
         </div>
@@ -149,19 +151,34 @@ export const Roadmap = () => {
 
       <div className="roadmap__pictures">
         <div className="roadmap__pictures__pic">
-          <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/10_.png"></img>
+          <img
+            alt="pic"
+            src="https://buffdoge.blob.core.windows.net/storage/10_.png"
+          ></img>
         </div>
         <div className="roadmap__pictures__pic">
-          <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/25_.png"></img>
+          <img
+            alt="pic"
+            src="https://buffdoge.blob.core.windows.net/storage/25_.png"
+          ></img>
         </div>
         <div className="roadmap__pictures__pic">
-          <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/50_.png"></img>
+          <img
+            alt="pic"
+            src="https://buffdoge.blob.core.windows.net/storage/50_.png"
+          ></img>
         </div>
         <div className="roadmap__pictures__pic">
-          <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/75_.png"></img>
+          <img
+            alt="pic"
+            src="https://buffdoge.blob.core.windows.net/storage/75_.png"
+          ></img>
         </div>
         <div className="roadmap__pictures__pic">
-          <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/100_.png"></img>
+          <img
+            alt="pic"
+            src="https://buffdoge.blob.core.windows.net/storage/100_.png"
+          ></img>
         </div>
       </div>
 
@@ -177,7 +194,7 @@ export const Roadmap = () => {
           <div className="roadmap__content__item__sidePic right">
             <img
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/side_1.gif"
+              src="https://buffdoge.blob.core.windows.net/storage/Compass.webm"
             ></img>
           </div>
         </div>
@@ -259,7 +276,7 @@ export const Roadmap = () => {
           <div className="roadmap__content__item__sidePic right">
             <img
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/side_5.gif"
+              src="https://buffdoge.blob.core.windows.net/storage/Compass.webm"
             ></img>
           </div>
         </div>
