@@ -30,7 +30,7 @@ export const Intro = () => {
         ></video>
 
         <video
-          src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/phone+first+page.webm"
+          src="https://res.cloudinary.com/privatebuff/video/upload/v1637530010/showcase_mobile_uibkcu.mp4"
           muted
           autoPlay
           loop
