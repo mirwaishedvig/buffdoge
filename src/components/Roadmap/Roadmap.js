@@ -159,7 +159,7 @@ export const Roadmap = () => {
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/50_0.75x.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/25_layer.png"
           ></img>
         </div>
         <div className="roadmap__pictures__pic">
@@ -171,13 +171,13 @@ export const Roadmap = () => {
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/50_0.75x.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/750.5x.png"
           ></img>
         </div>
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/50_0.75x.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/100_0.5x.png"
           ></img>
         </div>
       </div>
