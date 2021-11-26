@@ -37,7 +37,7 @@ export const Footer = () => {
             <div className="footer__content">
                 <div className="footer__content__developer">
                     <p>developed by</p>
-                    <p className="footer__content__developer__name">superbot</p>
+                    <p className="footer__content__developer__name">mirwais</p>
                 </div>
 
                 <div className="container">
