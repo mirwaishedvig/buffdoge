@@ -56,7 +56,7 @@ export const NavBar = () => {
     <header className={`navBar ${active}`}>
       <div className="navBar__paper">
         <a
-          href="https://buffdoge.blob.core.windows.net/storage/Buff_Paper.pdf"
+          href="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Buff_Paper.pdf"
           target="_blank"
           rel="noreferrer"
         >
@@ -69,7 +69,7 @@ export const NavBar = () => {
           <div className="navBar__logo__icon">
             <img
               alt="img"
-              src="https://buffdoge.blob.core.windows.net/storage/logo.svg"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/logo.svg"
             ></img>
           </div>
           <div className="navBar__logo__title">BuffDoge</div>
@@ -98,7 +98,7 @@ export const NavBar = () => {
             <span></span>
             <img
               alt="img"
-              src="https://buffdoge.blob.core.windows.net/storage/instagram.svg"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/instagram.svg"
             ></img>
           </a>
           <a
@@ -109,7 +109,7 @@ export const NavBar = () => {
             <span></span>
             <img
               alt="img"
-              src="https://buffdoge.blob.core.windows.net/storage/twitter.svg"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/twitter.svg"
             ></img>
           </a>
           <a
@@ -120,14 +120,14 @@ export const NavBar = () => {
             <span></span>
             <img
               alt="img"
-              src="https://buffdoge.blob.core.windows.net/storage/discord.svg"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/discord.svg"
             ></img>
           </a>
           <a href="#javascript;" className="noAnimation">
             <span></span>
             <img
               alt="img"
-              src="https://buffdoge.blob.core.windows.net/storage/openseaGrey.svg"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/openseaGrey.svg"
             ></img>
           </a>
           <button className="navBar__walletBtn">CONNECT WALLET</button>

@@ -2,7 +2,6 @@ import { useEffect } from "react";
 
 import "./Intro.scss";
 
-
 export const Intro = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -24,14 +23,14 @@ export const Intro = () => {
       <div className="intro__video">
         <video autoPlay loop muted className="intro__video__web">
           <source
-            src="https://buffdoge.blob.core.windows.net/storage/showcase_banner_evp1kt.mp4"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/web+main+page.webm"
             type="video/mp4"
           />
         </video>
 
         <video autoPlay loop muted className="intro__video__mobile">
           <source
-            src="https://buffdoge.blob.core.windows.net/storage/showcase_mobile_uibkcu.mp4"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/phone+first+page.webm"
             type="video/mp4"
           />
         </video>
@@ -42,7 +41,10 @@ export const Intro = () => {
       </div>
 
       <div className="intro__bottom">
-        <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/introBottom.svg"></img>
+        <img
+          alt="pic"
+          src="https://buffdoge.blob.core.windows.net/storage/introBottom.svg"
+        ></img>
       </div>
     </section>
   );

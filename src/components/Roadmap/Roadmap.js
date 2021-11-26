@@ -12,11 +12,11 @@ export const Roadmap = () => {
   const videoRef5 = useRef(false);
   const videoRefArray = [videoRef1, videoRef2, videoRef3, videoRef4, videoRef5];
   const videoArray = [
-    "https://buffdoge.blob.core.windows.net/storage/10.mp4",
-    "https://buffdoge.blob.core.windows.net/storage/25.mp4",
-    "https://buffdoge.blob.core.windows.net/storage/50.mp4",
-    "https://buffdoge.blob.core.windows.net/storage/75.mp4",
-    "https://buffdoge.blob.core.windows.net/storage/100.mp4",
+    "https://buffdogestorage.s3.eu-central-1.amazonaws.com/10.webm",
+    "https://buffdogestorage.s3.eu-central-1.amazonaws.com/25.webm",
+    "https://buffdogestorage.s3.eu-central-1.amazonaws.com/50.webm",
+    "https://buffdogestorage.s3.eu-central-1.amazonaws.com/75.webm",
+    "https://buffdogestorage.s3.eu-central-1.amazonaws.com/100.webm",
   ];
 
   const [currentOffset, setCurrentOffset] = useState(0);
@@ -133,7 +133,7 @@ export const Roadmap = () => {
           <div className="roadmap__video__timeline__base">
             <img
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/Base.png"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Base0.5x.png"
             ></img>
           </div>
 
@@ -143,7 +143,7 @@ export const Roadmap = () => {
           >
             <img
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/Rocket.png"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Rocket0.5x.png"
             ></img>
           </div>
         </div>
@@ -153,31 +153,31 @@ export const Roadmap = () => {
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdoge.blob.core.windows.net/storage/10_.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/10_0.75x.png"
           ></img>
         </div>
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdoge.blob.core.windows.net/storage/25_.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/50_0.75x.png"
           ></img>
         </div>
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdoge.blob.core.windows.net/storage/50_.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/50_0.75x.png"
           ></img>
         </div>
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdoge.blob.core.windows.net/storage/75_.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/50_0.75x.png"
           ></img>
         </div>
         <div className="roadmap__pictures__pic">
           <img
             alt="pic"
-            src="https://buffdoge.blob.core.windows.net/storage/100_.png"
+            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/50_0.75x.png"
           ></img>
         </div>
       </div>
@@ -192,10 +192,16 @@ export const Roadmap = () => {
             -Multiple games, one place.
           </p>
           <div className="roadmap__content__item__sidePic right">
-            <img
+          <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="250px"
+              width="250px"
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/Compass.webm"
-            ></img>
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Game.webm"
+            ></video>
           </div>
         </div>
         <div className="roadmap__content__item">
@@ -211,31 +217,37 @@ export const Roadmap = () => {
           </p>
 
           <div className="roadmap__content__item__sidePic top phase3">
-            <img
+          <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="250px"
+              width="250px"
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/side_2.gif"
-            ></img>
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Eth.webm"
+            ></video>
           </div>
 
           <div className="roadmap__content__item__photos">
             <div>
               <img
                 alt="pic"
-                src="https://buffdoge.blob.core.windows.net/storage/Owl.png"
+                src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Owl.png"
               ></img>
             </div>
 
             <div>
               <img
                 alt="pic"
-                src="https://buffdoge.blob.core.windows.net/storage/Cat.png"
+                src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Cat.png"
               ></img>
             </div>
 
             <div>
               <img
                 alt="pic"
-                src="https://buffdoge.blob.core.windows.net/storage/Unicorn.png"
+                src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Unicorn.png"
               ></img>
             </div>
           </div>
@@ -250,10 +262,16 @@ export const Roadmap = () => {
           </p>
 
           <div className="roadmap__content__item__sidePic right">
-            <img
+          <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="250px"
+              width="250px"
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/side_3.gif"
-            ></img>
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Brain.webm"
+            ></video>
           </div>
         </div>
         <div className="roadmap__content__item">
@@ -262,10 +280,16 @@ export const Roadmap = () => {
           <p>Release Date: TBD…</p>
 
           <div className="roadmap__content__item__sidePic">
-            <img
+          <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="250px"
+              width="250px"
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/side_4.gif"
-            ></img>
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/vr-man.webm"
+            ></video>
           </div>
         </div>
         <div className="roadmap__content__item">
@@ -274,10 +298,16 @@ export const Roadmap = () => {
           <p>Future steps will be decided together with our community</p>
 
           <div className="roadmap__content__item__sidePic right">
-            <img
+          <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="250px"
+              width="250px"
               alt="pic"
-              src="https://buffdoge.blob.core.windows.net/storage/Compass.webm"
-            ></img>
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Compass.webm"
+            ></video>
           </div>
         </div>
       </div>

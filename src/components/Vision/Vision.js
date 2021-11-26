@@ -4,7 +4,16 @@ export const Vision = () => {
     return (
         <section className="vision" id="vision">
             <div className="vision__character">
-                <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/first.gif"></img>
+            <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="400px"
+              width="400px"
+              alt="pic"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Character+2_1.webm"
+            ></video>
             </div>
 
             <div className="vision__content">

@@ -5,7 +5,7 @@ export const Team = () => {
   const info = [
     {
       image:
-        "https://res.cloudinary.com/privatebuff/image/upload/c_scale,w_350/v1637614417/imgs/team/1_optimized_vxu129.png",
+        "https://buffdogestorage.s3.eu-central-1.amazonaws.com/Alpha.png",
       name: "alpha",
       role: "graphic & motion designer",
       link: "https://twitter.com/1Alpha00",
@@ -51,16 +51,23 @@ export const Team = () => {
     <section className="team" id="team">
       <div className="team__title">
         <div className="team__title__anim">
-          <img
-            src="https://buffdoge.blob.core.windows.net/storage/team_logo.gif"
-            alt="pic"
-          ></img>
+        <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="250px"
+              width="250px"
+              alt="pic"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Logo.webm"
+            ></video>
         </div>
 
         <div className="team__title__text">
           <span>team</span>
         </div>
       </div>
+      
 
       <div className="team__members container">
         {info.map((item, index) => (

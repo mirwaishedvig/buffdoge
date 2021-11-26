@@ -16,7 +16,16 @@ export const Galaxy = () => {
             </div>
 
             <div className="galaxy__character">
-                <img alt="pic" src="https://buffdoge.blob.core.windows.net/storage/second.gif"></img>
+            <video
+              muted
+              autoPlay
+              playsInline
+              loop
+              height="400px"
+              width="400px"
+              alt="pic"
+              src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Character+1_1.webm"
+            ></video>
             </div>
         </section>
     )

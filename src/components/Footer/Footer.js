@@ -8,12 +8,12 @@ export const Footer = () => {
         <section className="footer">
             <div className="footer__banner">
                 <div className="footer__banner__back">
-                    <img src="https://buffdoge.blob.core.windows.net/storage/banner_back.png" alt="pic"></img>
+                    <img src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/Bot+Banner0.75x.png" alt="pic"></img>
                 </div>
 
                 <div className="footer__banner__wrapper">
                     <div className="footer__banner__bot">
-                        <img src="https://buffdoge.blob.core.windows.net/storage/banner_bot.png" alt="pic"></img>
+                        <img src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/bot+character0.5x.png" alt="pic"></img>
                     </div>
                 
                     <div className="footer__banner__content">
@@ -37,7 +37,7 @@ export const Footer = () => {
             <div className="footer__content">
                 <div className="footer__content__developer">
                     <p>developed by</p>
-                    <p className="footer__content__developer__name">Mirwais Sh</p>
+                    <p className="footer__content__developer__name">superbot</p>
                 </div>
 
                 <div className="container">
@@ -59,23 +59,23 @@ export const Footer = () => {
 
                         <a href="https://www.instagram.com/buffdogenft/" target="_blank" rel="noreferrer">
                             <span></span>
-                            <img alt="img" src="https://buffdoge.blob.core.windows.net/storage/instagram.svg"></img>
+                            <img alt="img" src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/instagram.svg"></img>
                         </a>
                         <a href="https://twitter.com/BuffDogeNFT" target="_blank" rel="noreferrer">
                             <span></span>
-                            <img alt="img" src="https://buffdoge.blob.core.windows.net/storage/twitter.svg"></img>
+                            <img alt="img" src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/twitter.svg"></img>
                         </a>
                         <a href="https://discord.gg/sVtpaCy7S2" target="_blank" rel="noreferrer">
                             <span></span>
-                            <img alt="img" src="https://buffdoge.blob.core.windows.net/storage/discord.svg"></img>
+                            <img alt="img" src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/discord.svg"></img>
                         </a>
                         <a href="#javascript;" className="noAnimation">
                             <span></span>
-                            <img alt="img" src="https://buffdoge.blob.core.windows.net/storage/openseaGrey.svg"></img>
+                            <img alt="img" src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/openseaGrey.svg"></img>
                         </a>
 
                         <div className="footer__content__menu__logo">
-                            <img alt="img" src="https://buffdoge.blob.core.windows.net/storage/logo.svg"></img>  
+                            <img alt="img" src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/logo.svg"></img>  
                         </div>
                     </div>
                 </div>
