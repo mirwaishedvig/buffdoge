@@ -24,11 +24,7 @@ export const Intro = () => {
         <video src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/web+main+page.webm" autoPlay loop muted className="intro__video__web">
         </video>
 
-        <video autoPlay loop muted className="intro__video__mobile">
-          <source
-            src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/phone+first+page.webm"
-            type="video/mp4"
-          />
+        <video src="https://buffdogestorage.s3.eu-central-1.amazonaws.com/phone+first+page.webm" autoPlay loop muted className="intro__video__mobile">
         </video>
       </div>
 
