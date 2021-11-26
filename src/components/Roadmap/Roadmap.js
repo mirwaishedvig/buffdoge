@@ -16,7 +16,7 @@ export const Roadmap = () => {
     "https://buffdogestorage.s3.eu-central-1.amazonaws.com/25.webm",
     "https://buffdogestorage.s3.eu-central-1.amazonaws.com/50.webm",
     "https://buffdogestorage.s3.eu-central-1.amazonaws.com/75.webm",
-    "https://buffdogestorage.s3.eu-central-1.amazonaws.com/100.webm",
+    "https://buffdogestorage.s3.eu-central-1.amazonaws.com/100new.webm",
   ];
 
   const [currentOffset, setCurrentOffset] = useState(0);
