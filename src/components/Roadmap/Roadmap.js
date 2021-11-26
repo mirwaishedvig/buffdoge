@@ -110,9 +110,12 @@ export const Roadmap = () => {
               } ${index === 4 ? "width100" : "width50"}`}
               key={index}
             >
-              <video muted ref={videoRefArray[index]}>
-                <source src={item} type="video/mp4" />
-              </video>
+              <video
+                src={item}
+                muted
+                playsInline
+                ref={videoRefArray[index]}
+              ></video>
             </div>
           ))}
         </div>
